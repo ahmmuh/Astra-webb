@@ -1,0 +1,55 @@
+/* *img {
+    max-width: 100%;
+} */
+
+.container .row {
+    margin-top: 5rem;
+}
+
+.col .md-image {
+    width: 250px;
+}
+
+#about .md-image {
+    width: 100%;
+}
+
+#about-good-service-section {
+    background-color: #e1e1e1;
+    padding: 5rem;
+    margin-top: 1rem;
+    max-width: 100%;
+}
+
+
+/* //logos style */
+
+#logos .logo-image {
+    width: 100%;
+    height: 200px;
+}
+
+#about .about-history {
+    width: 50%;
+}
+
+
+/* //personal bilder */
+
+#staff .staff-image {
+    width: 100%;
+}
+
+
+/* //footer */
+
+.footer {
+    background-color: #182c5c;
+    padding: 2rem;
+}
+
+.footer .container .row .col-3 .list-group a {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
