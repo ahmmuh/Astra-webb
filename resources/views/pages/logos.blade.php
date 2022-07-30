@@ -1,25 +1,323 @@
-<div class="container">
-    {{-- //våra kunder logos --}}
-    <div class="row" id="logos">
-        <h4>Kära kunder</h4>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+{{-- logos --}}
+<div id="logo-slider-container" class="carousel slide my-2" data-bs-ride="carousel">
+    <h4 class="lead text-white text-center p-2">Våra kunder - bli en av dem :)</h4>
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="1" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="2" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="3" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="4" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="5" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="6" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="7" aria-label="Slide 7"></button>
+      </div>
+    <div class="carousel-inner">
+        <h4 class="lead ">Våra kunder</h4>
+        <div class="carousel-item active">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo1.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{ url('images/logos/logo2.jpeg') }}" alt="">
+
+                        </span>
+                    </a>
+                  
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo3.png') }}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo6.jpeg')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1557053964-937650b63311?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1549924231-f129b911e442?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1602934445884-da0fa1c9d3b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1555596899-d634257b55bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fGxvZ298ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60" alt="">
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="col">
-            <img class="img-thumbnail logo-image" src="https://images.unsplash.com/photo-1496200186974-4293800e2c20?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="">
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo5.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo7.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo8.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+
+                <div class="col-md-3">
+                    <a href="#">
+                        <span class="img-text card p-4 d-flex justify-content-center" style="height: 200px">
+                            <img src="{{url('../images/logos/logo9.png')}}" alt="">
+
+                        </span>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
-
+    
 </div>

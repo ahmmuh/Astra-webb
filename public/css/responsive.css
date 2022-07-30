@@ -1,0 +1,9 @@
+@media only screen and (max-width: 800px) {
+    .header-card-container {
+        width: 100%;
+    }
+    .container .row .col .start-card {
+        width: 100%;
+        margin-top: -70px;
+    }
+}

@@ -1,55 +1,204 @@
-/* *img {
-    max-width: 100%;
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        position: relative;
+    }
+    
+    .blue-background {
+        background-color: #0090db;
+        color: white;
+    }
+    
+    .col .md-image {
+        width: 250px;
+    }
+    
+    #about .md-image {
+        width: 100%;
+    }
+    
+    #about-good-service-section {
+        background-color: #e1e1e1;
+        padding: 5rem;
+        margin-top: 1rem;
+        max-width: 100%;
+    }
+    /* //logos style */
+    
+    #logos .logo-image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    #about .about-history {
+        width: 50%;
+    }
+    /* //header */
+    /* 
+header {
+margin-top: -16px;
+background: #7e5a73;
+background-image: url("../images/stephanie.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 100vh;
+left: 0;
+background-color: rgb(80, 68, 68);
+padding: 3rem;
+position: relative;
+text-align: center;
+}
+
+.container .row .header-card-container {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin-top: 7rem;
 } */
-
-.container .row {
-    margin-top: 5rem;
-}
-
-.col .md-image {
-    width: 250px;
-}
-
-#about .md-image {
-    width: 100%;
-}
-
-#about-good-service-section {
-    background-color: #e1e1e1;
-    padding: 5rem;
-    margin-top: 1rem;
-    max-width: 100%;
-}
-
-
-/* //logos style */
-
-#logos .logo-image {
-    width: 100%;
-    height: 200px;
-}
-
-#about .about-history {
-    width: 50%;
-}
-
-
-/* //personal bilder */
-
-#staff .staff-image {
-    width: 100%;
-}
-
-
-/* //footer */
-
-.footer {
-    background-color: #182c5c;
-    padding: 2rem;
-}
-
-.footer .container .row .col-3 .list-group a {
-    background-color: transparent;
-    color: white;
-    border: none;
-}
+    
+    .container .row .col .start-card {
+        width: 60%;
+        background-color: #0090db;
+        color: white;
+        padding: 2rem;
+        display: none;
+    }
+    
+    .container .row .col .start-card .btn {
+        background-color: #fff;
+        color: black;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    
+    .car #first_page_form {
+        background-color: #0090db;
+        width: 55%;
+        /* padding: .5rem; */
+    }
+    
+    #window-container {
+        margin-top: -18px;
+    }
+    
+    .window-bg {
+        height: 50vh;
+        padding: 2rem;
+        /* position: relative; */
+    }
+    
+    .kontor-bg {
+        background-image: url('../images/kontor1.jpeg');
+        background-size: 100%;
+        background-position: center;
+        height: 60vh;
+        margin-top: -10rem;
+    }
+    
+    .window-bg {
+        background-image: url('../images/fonster2.jpeg');
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+    }
+    /* //personal bilder */
+    
+    #staff {
+        margin-top: 30px;
+    }
+    
+    #staff .staff-image {
+        width: 100%;
+    }
+    /* //modal form */
+    
+    .modal {
+        border: 0;
+        border-radius: 2rem;
+        padding: 2rem;
+    }
+    
+    .modal-body,
+    .modal-header {
+        background-color: #0090db;
+        padding: 2rem;
+    }
+    /* kontor style */
+    
+    .kontor-bg {
+        background-image: url('../images/matt.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 60vh;
+        position: absolute;
+        top: 60px;
+        width: 100%;
+    }
+    /* submit-btn */
+    
+    .btn-light {
+        background-color: #fff;
+        width: 100%;
+    }
+    /* map */
+    
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    /* //footer */
+    
+    .footer {
+        background-color: #0090db;
+        padding: 2rem;
+    }
+    
+    .footer .container .row .col-3 .list-group a {
+        background-color: transparent;
+        color: white;
+        border: none;
+    }
+    /* header starts gradient*/
+    
+    #home-page-slider {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/matt.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 4rem;
+        margin-top: -20px;
+    }
+    
+    #home-page-slider .carousel-item {
+        color: white;
+        height: 30rem;
+        position: relative;
+        margin-top: -10px;
+    }
+    
+    #home-page-slider .carousel-caption {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        padding-bottom: 6rem;
+    }
+    
+    #logo-slider-container {
+        text-align: center;
+        padding: .6rem;
+    }
+    
+    #logo-slider-container .carousel-inner .carousel-item {
+        padding: 3rem;
+        background-image: linear-gradient(to right, rgba(226, 229, 232, 0.13), rgba(7, 11, 7, 0.712), rgba(54, 95, 54, 0));
+    }
