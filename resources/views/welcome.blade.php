@@ -62,11 +62,9 @@
                     <a  href="{{ url('/') }}" class="btn btn-primary">Boka nu</a>
             </div>
         </div>
-    
-        
-          @include('pages.service')
-        
-      
+          @include('pages.service')      
       </div>
       
       @endsection
+
+      {{-- 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 --}}

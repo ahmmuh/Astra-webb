@@ -35,11 +35,9 @@
           </li>
 
 
+
           <li class="nav-item">
-            <a class="nav-link " href="{{ url('/pages.news') }}">Nyhet</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ url('/pages.job') }}">jobbsökande</a>
+            <a class="nav-link" href="{{ url('/pages.job') }}">Jobba hos oss</a>
           </li>
 
           <li class="nav-item">

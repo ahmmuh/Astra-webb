@@ -15,7 +15,7 @@
         <div class="col-3">
             <div class="list-group">
                 <h5>  Mer info om våra tjänster</h5>
-                <a  href="#" class="list-group-item list-group-item-action">Kontorsstädning</a>
+                <a href="#" class="list-group-item list-group-item-action">Kontorsstädning</a>
                 <a href="#" class="list-group-item list-group-item-action">Butikstädning</a>
                 <a href="#" class="list-group-item list-group-item-action">Lagerstädning</a>
                 <a href="#" class="list-group-item list-group-item-action">Byggstädning</a>

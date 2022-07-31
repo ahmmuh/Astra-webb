@@ -461,7 +461,7 @@
 
 <div class="row my-4">
     <div class="col-lg-6 col-md-12">
-        <img  src="{{ url('images/matt2.jpeg') }}" style=" width: 100%; height: 300px" alt="">
+        <img  src="{{ url('images/images-shaqo/matt2.jpeg') }}" style=" width: 100%; height: 300px" alt="">
     </div>
 
     <div class="col-lg-6 col-md-12">

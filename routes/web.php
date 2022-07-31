@@ -39,9 +39,6 @@ Route::get('/pages.hemstad', function () {
 Route::get('/pages.butik', function () {
     return view('pages.butik');
 });
-Route::get('/pages.news', function () {
-    return view('pages.news');
-});
 
 Route::get('/pages.job', function () {
     return view('pages.job');
@@ -70,6 +67,8 @@ Route::get('/pages.matta', function () {
 });
 
 
+// Route::get('/pages.order-form', function () {
+//     return view('pages.order-form');
+// });
 Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

@@ -1,107 +1,67 @@
 @extends('layouts.app')
+
 @section('content')
-<div id="jobb-bg" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="carousel-caption d-none d-md-block" style="width: 50%; margin: 0 auto;">
-            <h5>First slide label</h5>
-            <p>Some representative placeholder content for the first slide.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque enim qui recusandae fugit, ipsam sapiente iure ratione perspiciatis! Debitis, deserunt.
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5 col-md-12">
+            <h3>Skicka din ansökan redan idag!</h3>
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ipsa officiis eaque autem, porro incidunt quam, laudantium necessitatibus sint perspiciatis soluta. Beatae atque nisi ipsum, ipsa qui possimus repellat sunt molestias at distinctio tempora soluta iste in dignissimos dolorum deserunt.
             </p>
-            <a href="#" class="btn btn-lg btn-primary rounded-pill" style="width: 20rem">Jag vill ha en offert</a>
-          </div>
-      </div>
-     
-     
-    </div>
+        </div>
 
-  </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="container w-75">
-                <div class="row">
-                  <div class="col-lg-3">
-                      <div class="card " style="width: 18rem;">
-                          <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-3">
-                   <div class="card" style="width: 18rem;">
-                       <div class="card-body">
-                           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                       </div>
-                   </div>
-               </div>
-               <div class="col-lg-3">
-               <div class="card" style="width: 18rem;">
-                   <div class="card-body">
-                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                   </div>
-               </div>
-               </div>
-               <div class="col-lg-3">
-                  <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      </div>
-                  </div>
-               </div>
-                </div>
+        <div class="col-lg-7">
+            <div class="mb-3">
+                <input type="text" class="form-control" id="firstname" aria-describedby="textHelp"
+                placeholder="Förnamn">
             </div>
-                  </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" id="lastname" aria-describedby="textHelp" placeholder="Efternamn">
+            </div>
+            <div class="mb-3">
+
+                <input type="email" class="form-control" id="email" aria-describedby="textHelp" placeholder="E-post">
+            </div>
+
+            <div class="form-group">
+
+                <input type="number" class="form-control" id="telefon" aria-describedby="textHelp" placeholder="Telefon">
+            </div>
+            <div class="form-group">
+                <input type="number" class="form-control" id="squr" aria-describedby="textHelp"
+                placeholder="Hur många år har du jobbat inom lokalvård?" >
+            </div>
+            <select class="form-select" aria-label="Default select example">
+                <option selected> 1 år</option>
+                <option value="1">2 år</option>
+                <option value="2">3 år</option>
+                <option value="3">4 år</option>
+                <option value="4">5 år</option>
+                <option value="6">6 år</option>
+                <option value="8">7 år</option>
+                <option value="7">8 år</option>
+                
+            </select>
+
+            <div class="mb-3">
+                <input type="file" class="form-control" id="squr" aria-describedby="textHelp"
+                placeholder="Uppload ditt cv ">
+            </div>
+            <div class="mb-3">
+                <label for="meddelande">Skriv några rader om dig själv!</label>
+                <textarea class="form-control" id="meddelande" rows="3"></textarea>
+            </div>
+            <div class="d-grid gap-2 d-md-block">
+                <button  class="btn btn-block blue-background border rounded-pill" type="submit">Skicka in</button>
+            </div>
+
+           
+
+        </div>
         
-      
-          <div class="row text-start">
-              <div class="col-lg-6 col-md-12">
-                  <img src="{{url('images/mohamed.jpg')}}" style="width: 80%"  alt="Bild">
-              </div>
-      
-              <div class="col-lg-6 col-md-12">
-                  <h3>Vi städar när ni har möjlighet</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a commodi possimus sunt tenetur quisquam deleniti nostrum optio et ea ducimus error explicabo iure consequatur quasi, nesciunt impedit asperiores facere.</p>
-                  <button type="button" class="btn btn-primary">Beställ nu</button>
-              </div>
-          </div>
-          <div class="container text-start ">
-      
-                  <div class="row text-start">
-                      <div class="col-lg-6 col-md-12">
-                          <h3>Vår fokus ligger på kvalite - inte hur mycket vi får in</h3>
-                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, odio aliquid tenetur, eius asperiores sit repellat dolor deleniti, corporis ab voluptatum. Praesentium a quis, assumenda nisi nesciunt quam molestiae eligendi?</p>
-                      </div>
-      
-                      <div class="col-lg-6 col-md-12">
-                              <img src="{{url('images/trapp3.jpg')}}" style="width: 80%"  alt="">
-                      </div>
-                  </div>
-              
-                  <div class="row text-start">
-                      <div class="col-lg-6 col-md-12">
-                          <h3>Vojo jobbar bra</h3>
-                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, odio aliquid tenetur, eius asperiores sit repellat dolor deleniti, corporis ab voluptatum. Praesentium a quis, assumenda nisi nesciunt quam molestiae eligendi?</p>
-                      </div>
-      
-                      <div class="col-lg-6 col-md-12">
-                              <img src="{{url('images/mohamed.jpg')}}" style="width: 80%"  alt="">
-                      </div>
-                  </div>
-      
-                  <div class="row text-center">
-                      <h4>Extra tillägg</h4>
-                      <div class="col-lg-4 col-md-12">
-                          <img src="{{url('images/abdi1.jpg')}}" style="width: 100%"  alt="bild">
-                      </div>
-                      <div class="col-lg-4 col-md-12">
-                          <img src="{{url('images/trapp3.jpg')}}" style="width: 100%"  alt="bild">
-                      </div>
-                      <div class="col-lg-4 col-md-12">
-                          <img src="{{url('images/maria.jpg')}}" style="width: 100%"  alt="bild">
-                      </div>
-                  </div>
-              </div>
-      
     </div>
+   
+</div>
+    
 @endsection
