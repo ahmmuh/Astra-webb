@@ -1,19 +1,25 @@
 @extends('layouts.app')
 @section('content')
-<div class="d-flex flex-row ">
-    <div class=" text-center  m-auto kontor-bg">
-        <div class="col">
-            <h3>Kontakta oss</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsa id consequuntur quae ex eius impedit fuga similique corporis, dignissimos, ipsam adipisci excepturi. Quis reiciendis, tempora cum ex optio iure!</p>
-        <button type="button" class="btn btn-primary">Beställ nu</button>
-        </div>
+<div id="kontor-bg" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption d-none d-md-block" style="width: 50%; margin: 0 auto;">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque enim qui recusandae fugit, ipsam sapiente iure ratione perspiciatis! Debitis, deserunt.
+            </p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill" style="width: 20rem">Jag vill ha en offert</a>
+          </div>
+      </div>
+     
+     
     </div>
-  </div>
 
+  </div>
     <div class="container text-start ">
                    <div class="row text-start">
                 <div class="col-lg-6 col-md-12">
-                    <img src="{{url('images/mohamed.jpg')}}" style="width: 80%"  alt="Bild">
+                    <img src="{{url('images/images-shaqo/kontor1.jpeg')}}" style="width: 80%"  alt="Bild">
                 </div>
 
                 <div class="col-lg-6 col-md-12">
@@ -30,7 +36,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                        <img src="{{url('images/trapp3.jpg')}}" style="width: 80%"  alt="">
+                        <img src="{{url('images/images-shaqo/image-shaqo')}}" style="width: 80%"  alt="">
                 </div>
             </div>
         

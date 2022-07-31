@@ -28,12 +28,12 @@
             @yield('content')
       
               @include('pages.staff')
+               {{-- @include('pages.service') --}}
+
               @include('pages.logos')    
               @include('pages.map')
               @include('pages.blue-section')
-              @include('pages.questions_answers')
-
-              
+               @include('pages.questions_answers')
             </main>
 
             @include('pages.footer')

@@ -1,11 +1,6 @@
 @extends('layouts.app')
 
     @section('content')
-    <style>
-
-       
-    </style>
-
 
     {{-- home page slider --}}
     <div id="home-page-slider" class="carousel slide" data-bs-ride="carousel">
@@ -53,14 +48,13 @@
         </button>
       </div>
     {{-- end slider --}}
-    <div class="container text-start" id="staff">
-        <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <img src="{{ url('images/vojo2.jpg') }}" alt="" style="width: 100%">
+    <div class="container text-start mt-5" id="staff">
+        <div class="row ">
+            <div class="col-lg-4 col-md-12 logo-circel-image" >
             </div>
 
-            <div class="col-lg-6 col-md-12">
-                <h4>Hur vi jobbar</h4>
+            <div class="col-lg-8 col-md-12 ">
+                <h4>Vilka är vi?</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Error enim aliquam non ipsum velit praesentium esse,
                       neque quod maiores natus excepturi voluptates porro 
@@ -68,62 +62,11 @@
                     <a  href="{{ url('/') }}" class="btn btn-primary">Boka nu</a>
             </div>
         </div>
-
-
-        <hr>
-        <div class="row">
-            <div class="col-lg-6 col-md-12">
-                <img src="{{ url('images/abdi1.jpg') }}" alt="" style="width: 100%">
-            </div>
-
-            <div class="col-lg-6 col-md-12">
-                <h4>Hur vi jobbar</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Error enim aliquam non ipsum velit praesentium esse,
-                      neque quod maiores natus excepturi voluptates porro 
-                    dolores dolorum sed dolor, qui nulla. Laborum.</p>
-                    <a  href="{{ url('/') }}" class="btn btn-primary">Boka nu</a>
-            </div>
-        </div>
-
+    
+        
+          @include('pages.service')
+        
       
-
-
-        {{-- //anställda --}}
-     <div class="row">
-        <h3>Vår personal</h3>
-       <div class="col-lg-3 col-md-12">
-           <img class="staff-image " src="https://images.unsplash.com/photo-1560250056-07ba64664864?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1451&q=80" alt="anställd">
-           <div class="p-4">
-               <strong>Abdirahman - VD</strong>
-           <p>abdirahman@astrastad.se <br>072 999 32 78</p>
-           </div>
-           </div>
-       <div class="col-lg-3 col-md-12">
-           <img class="staff-image " src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHdvcmtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="anställd">
-           <div class="p-4">
-           <strong>Anna - Områdeschef</strong>
-           <p>anna@astrastad.se <br>072 999 88 78</p>
-           </div>
-       </div>
-       <div class="col-lg-3 col-md-12">
-           <img class="staff-image " src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="anställd">
-           
-           <div class="p-4"><strong>Said - Teamledare</strong>
-           <p>said@astrastad.se <br>072 333 32 78</p></div>
-       </div>
-       <div class="col-lg-3 col-md-12">
-           <img class="staff-image " src="https://images.unsplash.com/photo-1537511446984-935f663eb1f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d29ya2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" alt="anställd">
-           <div class="p-4">
-           <strong>Mustaf - Städare</strong>
-           <p>mustaf@astrastad.se
-               <br> 072 111 00 78</p></div>
-       </div>
-   </div>
-    </div>
-
-
-
-  
       </div>
+      
       @endsection

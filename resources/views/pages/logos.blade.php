@@ -1,6 +1,6 @@
 {{-- logos --}}
-<div id="logo-slider-container" class="carousel slide my-2" data-bs-ride="carousel">
-    <h4 class="lead text-white text-center p-2">Våra kunder - bli en av dem :)</h4>
+<div id="logo-slider-container" class="carousel slide " data-bs-ride="carousel">
+    <h4 class="lead text-white text-center">Våra kunder - bli en av dem :)</h4>
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
         <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="1" aria-label="Slide 1"></button>
@@ -12,7 +12,7 @@
         <button type="button" data-bs-target="#logo-slider-container" data-bs-slide-to="7" aria-label="Slide 7"></button>
       </div>
     <div class="carousel-inner">
-        <h4 class="lead ">Våra kunder</h4>
+        <h4>Våra kunder</h4>
         <div class="carousel-item active">
             <div class="row">
                 <div class="col-md-3">

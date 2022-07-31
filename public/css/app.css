@@ -8,8 +8,30 @@
         position: relative;
     }
     
-    .blue-background {
+    h3,
+    h4,
+    h2,
+    h5,
+    h6 {
+        color: #0090db;
+    }
+    
+    .container .row {
+        margin-top: 3rem;
+    }
+    
+    .list-group a:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    
+    .container .blue-background {
         background-color: #0090db;
+        color: white;
+    }
+    
+    .container .blue-background:hover {
+        background-color: black;
         color: white;
     }
     
@@ -37,31 +59,6 @@
     #about .about-history {
         width: 50%;
     }
-    /* //header */
-    /* 
-header {
-margin-top: -16px;
-background: #7e5a73;
-background-image: url("../images/stephanie.jpg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-height: 100vh;
-left: 0;
-background-color: rgb(80, 68, 68);
-padding: 3rem;
-position: relative;
-text-align: center;
-}
-
-.container .row .header-card-container {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-margin-top: 7rem;
-} */
     
     .container .row .col .start-card {
         width: 60%;
@@ -84,16 +81,6 @@ margin-top: 7rem;
         /* padding: .5rem; */
     }
     
-    #window-container {
-        margin-top: -18px;
-    }
-    
-    .window-bg {
-        height: 50vh;
-        padding: 2rem;
-        /* position: relative; */
-    }
-    
     .kontor-bg {
         background-image: url('../images/kontor1.jpeg');
         background-size: 100%;
@@ -102,21 +89,28 @@ margin-top: 7rem;
         margin-top: -10rem;
     }
     
-    .window-bg {
+    #fonster-bg {
         background-image: url('../images/fonster2.jpeg');
         background-size: 100%;
         background-position: center;
         background-repeat: no-repeat;
         height: 60vh;
     }
+    
+    .md-image {
+        width: 270px;
+        height: 200px;
+        border-radius: 50%;
+        margin-bottom: 4rem;
+    }
     /* //personal bilder */
     
-    #staff {
-        margin-top: 30px;
-    }
-    
-    #staff .staff-image {
-        width: 100%;
+    #staff .logo-circel-image {
+        background-image: url(../images/astra-logos/logo6.jpg);
+        width: 270px;
+        height: 270px;
+        border-radius: 50%;
+        margin-bottom: 4rem;
     }
     /* //modal form */
     
@@ -171,9 +165,52 @@ margin-top: 7rem;
     
     #home-page-slider {
         background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/matt.jpg);
+    }
+    
+    #fonster-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/images-shaqo/fonster4.jpeg);
+        object-fit: cover;
+    }
+    
+    #flytt-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/images-shaqo/image-shaqo2.jpeg);
+        object-fit: cover;
+    }
+    
+    #hem-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/home.jpg);
+    }
+    
+    #golv-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/images-shaqo/image-shaqo4.jpeg);
+    }
+    
+    #kontor-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/images-shaqo/kontor1.jpeg);
+    }
+    
+    #matt-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/images-shaqo/matt2.jpeg);
+    }
+    
+    #lager-bg {
+        background-image: linear-gradient(to right, rgb(8, 6, 6), rgba(109, 109, 153, 0.7), rgb(7, 3, 3)), url(../images/lager7.jpg);
+    }
+    
+    #home-page-slider,
+    #fonster-bg,
+    #flytt-bg,
+    #kontor-bg,
+    #lager-bg,
+    #bygg-bg,
+    #hem-bg,
+    #butik-bg,
+    #golv-bg,
+    #matt-bg {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        height: 75vh;
         padding-bottom: 4rem;
         margin-top: -20px;
     }
@@ -195,10 +232,27 @@ margin-top: 7rem;
     
     #logo-slider-container {
         text-align: center;
-        padding: .6rem;
+        padding-bottom: 0.6rem;
     }
     
     #logo-slider-container .carousel-inner .carousel-item {
         padding: 3rem;
         background-image: linear-gradient(to right, rgba(226, 229, 232, 0.13), rgba(7, 11, 7, 0.712), rgba(54, 95, 54, 0));
+    }
+    
+    #service-slider-container {
+        background-image: linear-gradient(to right, rgba(244, 245, 245, 0.404), rgba(246, 249, 249, 0.397), rgba(242, 245, 245, 0.473));
+        padding: 2rem;
+    }
+    
+    #service-slider-container .carousel-indicators button {
+        background-color: #0090db;
+    }
+    
+    #service-slider-container .carousel-indicators .active {
+        background-color: rgb(114, 10, 58);
+    }
+    
+    service-slider-container .carousel-indicators .active {
+        background-color: rgb(114, 10, 58);
     }

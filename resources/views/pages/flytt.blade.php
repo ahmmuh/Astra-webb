@@ -2,24 +2,33 @@
 @extends('layouts.app')
 @section('content')
 
-<div class="d-flex flex-row ">
-    <div class=" text-center  m-auto window-bg">
-        <div class="col">
-            <h3>Flytt</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, ipsa id consequuntur quae ex eius impedit fuga similique corporis, dignissimos, ipsam adipisci excepturi. Quis reiciendis, tempora cum ex optio iure!</p>
-        <button type="button" class="btn btn-primary">Beställ nu</button>
-        </div>
+<div id="flytt-bg" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="carousel-caption d-none d-md-block" style="width: 50%; margin: 0 auto;">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque enim qui recusandae fugit, ipsam sapiente iure ratione perspiciatis! Debitis, deserunt.
+            </p>
+            <a href="#" class="btn btn-lg btn-primary rounded-pill" style="width: 20rem">Jag vill ha en offert</a>
+          </div>
+      </div>
+     
+     
     </div>
+
   </div>
+{{-- end slider --}}
+
     <div class="container text-start ">
 
             <div class="row text-start">
                 <div class="col-lg-6 col-md-12">
-                    <img src="{{url('images/mohamed.jpg')}}" style="width: 80%"  alt="Bild">
+                    <img src="{{url('images/images-shaqo/image-shaqo2.jpeg')}}" style="width: 80%"  alt="Bild">
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                    <h3>Vi städar när ni har möjlighet</h3>
+                    <h4>Ska du flytta ut? låt oss hjälpa dig med städningen</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque a commodi possimus sunt tenetur quisquam deleniti nostrum optio et ea ducimus error explicabo iure consequatur quasi, nesciunt impedit asperiores facere.</p>
                     <button type="button" class="btn btn-primary">Beställ nu</button>
                 </div>
@@ -32,7 +41,7 @@
                 </div>
 
                 <div class="col-lg-6 col-md-12">
-                        <img src="{{url('images/trapp3.jpg')}}" style="width: 80%"  alt="">
+                        <img src="{{url('images/images-shaqo/image-shaqo3.jpeg')}}" style="width: 80%"  alt="">
                 </div>
             </div>
         
@@ -40,7 +49,7 @@
               
 
                 <div class="col-lg-6 col-md-12">
-                        <img src="{{url('images/maria.jpg')}}" style="width: 80%"  alt="">
+                        <img src="{{url('images/maria.jpg')}}" style="width: 100%"  alt="">
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <h3>Maria jobbar bra</h3>
